@@ -221,11 +221,14 @@ public class CheckerPanel extends JPanel implements MouseMotionListener, MouseLi
 		
 		
 		//=================================
-		g.setColor(Color.black);
+		Color color1 = new Color(166,125,93);
+                g.setColor(color1);
 		g.fillRect(0, 0, 660, 700);
-		g.setColor(Color.lightGray);
-		g.fillRect(660, 0, 700, 700);		
-		g.setColor(Color.yellow);
+                Color color5 = new Color(94,110,146);
+		g.setColor(color5);
+		g.fillRect(660, 0, 700, 700);	
+                Color color2 = new Color(231,207,169);
+		g.setColor(color2);
 		g.fillRect(2, 26, 80, 80);
 		g.fillRect(162, 26, 80, 80);
 		g.fillRect(322, 26, 80, 80);
@@ -267,7 +270,8 @@ public class CheckerPanel extends JPanel implements MouseMotionListener, MouseLi
 		g.fillRect(402, 586, 80, 80);
 		g.fillRect(562, 586, 80, 80);
 		//=====================================
-		g.setColor(Color.blue);
+		Color color3 = new Color(241,193,67);
+                g.setColor(color3);
 		checker.checkerBlue11(g);
 		checker.checkerBlue12(g);
 		checker.checkerBlue13(g);
@@ -281,7 +285,8 @@ public class CheckerPanel extends JPanel implements MouseMotionListener, MouseLi
 		checker.checkerBlue33(g);
 		checker.checkerBlue34(g);
 		
-		g.setColor(Color.red);
+                Color color4 =  new Color(107,70,61);
+		g.setColor(color4);
 		checker.checkerWhite11(g);
 		checker.checkerWhite12(g);
 		checker.checkerWhite13(g);
